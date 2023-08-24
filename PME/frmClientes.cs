@@ -22,5 +22,10 @@ namespace PME
         {
 
         }
+
+        private void kryptonLabel14_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
