@@ -28,5 +28,18 @@ namespace PME
         {
 
         }
+
+        private void kryptonButton1_Click(object sender, EventArgs e)
+        {
+            frmAtualizacoes Formtualizacoes = new frmAtualizacoes();
+            Formtualizacoes.ShowDialog();
+        }
+
+        private void kryptonButton3_Click(object sender, EventArgs e)
+        {
+
+            frmClientes FormClientes = new frmClientes();
+            FormClientes.ShowDialog();
+        }
     }
 }
