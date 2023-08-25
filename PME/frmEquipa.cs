@@ -22,5 +22,15 @@ namespace PME
         {
 
         }
+
+        private void kryptonLabel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void kryptonTextBox8_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
