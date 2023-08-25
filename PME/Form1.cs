@@ -41,5 +41,18 @@ namespace PME
             frmClientes FormClientes = new frmClientes();
             FormClientes.ShowDialog();
         }
+
+        private void kryptonButton2_Click(object sender, EventArgs e)
+        {
+            frmEquipa frmEquipa = new frmEquipa();
+            frmEquipa.ShowDialog();
+        }
+
+        private void kryptonButton4_Click(object sender, EventArgs e)
+        {
+            frmVisita frmVisita = new frmVisita();
+            frmVisita.ShowDialog();
+        }
     }
-}
+    }
+

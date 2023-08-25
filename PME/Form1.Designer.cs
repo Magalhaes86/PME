@@ -64,6 +64,7 @@
             this.kryptonButton2.Size = new System.Drawing.Size(301, 67);
             this.kryptonButton2.TabIndex = 3;
             this.kryptonButton2.Values.Text = "Equipa";
+            this.kryptonButton2.Click += new System.EventHandler(this.kryptonButton2_Click);
             // 
             // kryptonButton3
             // 
@@ -81,6 +82,7 @@
             this.kryptonButton4.Size = new System.Drawing.Size(301, 66);
             this.kryptonButton4.TabIndex = 3;
             this.kryptonButton4.Values.Text = "Visitas";
+            this.kryptonButton4.Click += new System.EventHandler(this.kryptonButton4_Click);
             // 
             // Form1
             // 
