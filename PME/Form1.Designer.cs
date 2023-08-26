@@ -69,7 +69,7 @@
             // 
             // kryptonButton3
             // 
-            this.kryptonButton3.Location = new System.Drawing.Point(606, 44);
+            this.kryptonButton3.Location = new System.Drawing.Point(416, 38);
             this.kryptonButton3.Name = "kryptonButton3";
             this.kryptonButton3.Size = new System.Drawing.Size(220, 59);
             this.kryptonButton3.TabIndex = 3;
@@ -87,7 +87,7 @@
             // 
             // btnProdutos
             // 
-            this.btnProdutos.Location = new System.Drawing.Point(626, 175);
+            this.btnProdutos.Location = new System.Drawing.Point(416, 133);
             this.btnProdutos.Name = "btnProdutos";
             this.btnProdutos.Size = new System.Drawing.Size(220, 59);
             this.btnProdutos.TabIndex = 3;
@@ -99,7 +99,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1239, 511);
+            this.ClientSize = new System.Drawing.Size(736, 356);
             this.Controls.Add(this.kryptonButton4);
             this.Controls.Add(this.btnProdutos);
             this.Controls.Add(this.kryptonButton3);

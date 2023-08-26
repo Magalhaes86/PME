@@ -226,7 +226,7 @@
             this.kryptonPanel1.Name = "kryptonPanel1";
             this.kryptonPanel1.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.kryptonPanel1.PanelBackStyle = ComponentFactory.Krypton.Toolkit.PaletteBackStyle.HeaderDockActive;
-            this.kryptonPanel1.Size = new System.Drawing.Size(2029, 138);
+            this.kryptonPanel1.Size = new System.Drawing.Size(2218, 138);
             this.kryptonPanel1.TabIndex = 1;
             // 
             // kryptonPanel21
@@ -236,7 +236,7 @@
             this.kryptonPanel21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.kryptonPanel21.Location = new System.Drawing.Point(778, 0);
             this.kryptonPanel21.Name = "kryptonPanel21";
-            this.kryptonPanel21.Size = new System.Drawing.Size(1251, 138);
+            this.kryptonPanel21.Size = new System.Drawing.Size(1440, 138);
             this.kryptonPanel21.TabIndex = 0;
             // 
             // kryptonPanel23
@@ -248,7 +248,7 @@
             this.kryptonPanel23.Dock = System.Windows.Forms.DockStyle.Fill;
             this.kryptonPanel23.Location = new System.Drawing.Point(696, 0);
             this.kryptonPanel23.Name = "kryptonPanel23";
-            this.kryptonPanel23.Size = new System.Drawing.Size(555, 138);
+            this.kryptonPanel23.Size = new System.Drawing.Size(744, 138);
             this.kryptonPanel23.TabIndex = 0;
             // 
             // kryptonLinkLabel4
@@ -381,16 +381,15 @@
             this.kryptonPanel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.kryptonPanel2.Location = new System.Drawing.Point(0, 138);
             this.kryptonPanel2.Name = "kryptonPanel2";
-            this.kryptonPanel2.Size = new System.Drawing.Size(853, 802);
+            this.kryptonPanel2.Size = new System.Drawing.Size(617, 802);
             this.kryptonPanel2.TabIndex = 2;
             // 
             // kryptonPanel6
             // 
             this.kryptonPanel6.Controls.Add(this.kryptonGroupBox2);
-            this.kryptonPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.kryptonPanel6.Location = new System.Drawing.Point(0, 387);
             this.kryptonPanel6.Name = "kryptonPanel6";
-            this.kryptonPanel6.Size = new System.Drawing.Size(853, 415);
+            this.kryptonPanel6.Size = new System.Drawing.Size(617, 415);
             this.kryptonPanel6.TabIndex = 0;
             // 
             // kryptonGroupBox2
@@ -404,7 +403,7 @@
             // kryptonGroupBox2.Panel
             // 
             this.kryptonGroupBox2.Panel.Controls.Add(this.kryptonTextBox1);
-            this.kryptonGroupBox2.Size = new System.Drawing.Size(853, 415);
+            this.kryptonGroupBox2.Size = new System.Drawing.Size(617, 415);
             this.kryptonGroupBox2.TabIndex = 2;
             this.kryptonGroupBox2.Values.Heading = "Outras Informações";
             // 
@@ -415,7 +414,7 @@
             this.kryptonTextBox1.Multiline = true;
             this.kryptonTextBox1.Name = "kryptonTextBox1";
             this.kryptonTextBox1.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.kryptonTextBox1.Size = new System.Drawing.Size(849, 383);
+            this.kryptonTextBox1.Size = new System.Drawing.Size(613, 383);
             this.kryptonTextBox1.TabIndex = 0;
             this.kryptonTextBox1.Text = "Informações sobre cliente";
             // 
@@ -425,13 +424,12 @@
             this.kryptonPanel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.kryptonPanel5.Location = new System.Drawing.Point(0, 0);
             this.kryptonPanel5.Name = "kryptonPanel5";
-            this.kryptonPanel5.Size = new System.Drawing.Size(853, 387);
+            this.kryptonPanel5.Size = new System.Drawing.Size(617, 387);
             this.kryptonPanel5.TabIndex = 0;
             // 
             // kryptonGroupBox1
             // 
             this.kryptonGroupBox1.CaptionStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.SuperTip;
-            this.kryptonGroupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.kryptonGroupBox1.Location = new System.Drawing.Point(0, 0);
             this.kryptonGroupBox1.Name = "kryptonGroupBox1";
             this.kryptonGroupBox1.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Blue;
@@ -456,7 +454,7 @@
             this.kryptonGroupBox1.Panel.Controls.Add(this.kryptonLabel2);
             this.kryptonGroupBox1.Panel.Controls.Add(this.kryptonLabel8);
             this.kryptonGroupBox1.Panel.Controls.Add(this.kryptonLabel1);
-            this.kryptonGroupBox1.Size = new System.Drawing.Size(853, 387);
+            this.kryptonGroupBox1.Size = new System.Drawing.Size(611, 387);
             this.kryptonGroupBox1.TabIndex = 1;
             this.kryptonGroupBox1.Values.Heading = "Dados do Cliente";
             // 
@@ -632,9 +630,9 @@
             // 
             this.kryptonPanel4.Controls.Add(this.kryptonNavigator1);
             this.kryptonPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.kryptonPanel4.Location = new System.Drawing.Point(853, 138);
+            this.kryptonPanel4.Location = new System.Drawing.Point(617, 138);
             this.kryptonPanel4.Name = "kryptonPanel4";
-            this.kryptonPanel4.Size = new System.Drawing.Size(1176, 802);
+            this.kryptonPanel4.Size = new System.Drawing.Size(1601, 802);
             this.kryptonPanel4.TabIndex = 3;
             // 
             // kryptonNavigator1
@@ -652,7 +650,7 @@
             this.kryptonPage2,
             this.kryptonPage3});
             this.kryptonNavigator1.SelectedIndex = 0;
-            this.kryptonNavigator1.Size = new System.Drawing.Size(1176, 802);
+            this.kryptonNavigator1.Size = new System.Drawing.Size(1601, 802);
             this.kryptonNavigator1.TabIndex = 0;
             this.kryptonNavigator1.Text = "kryptonNavigator1";
             // 
@@ -665,7 +663,7 @@
             this.kryptonPage1.LastVisibleSet = true;
             this.kryptonPage1.MinimumSize = new System.Drawing.Size(50, 50);
             this.kryptonPage1.Name = "kryptonPage1";
-            this.kryptonPage1.Size = new System.Drawing.Size(1174, 767);
+            this.kryptonPage1.Size = new System.Drawing.Size(1599, 767);
             this.kryptonPage1.Text = "Aplicação / Dados";
             this.kryptonPage1.ToolTipTitle = "Page ToolTip";
             this.kryptonPage1.UniqueName = "E0981DBBC3DE4A2CA7B3CB2AF9F94753";
@@ -677,7 +675,7 @@
             this.kryptonPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.kryptonPanel8.Location = new System.Drawing.Point(713, 0);
             this.kryptonPanel8.Name = "kryptonPanel8";
-            this.kryptonPanel8.Size = new System.Drawing.Size(461, 767);
+            this.kryptonPanel8.Size = new System.Drawing.Size(886, 767);
             this.kryptonPanel8.TabIndex = 0;
             // 
             // kryptonPanel18
@@ -687,7 +685,7 @@
             this.kryptonPanel18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.kryptonPanel18.Location = new System.Drawing.Point(0, 107);
             this.kryptonPanel18.Name = "kryptonPanel18";
-            this.kryptonPanel18.Size = new System.Drawing.Size(461, 660);
+            this.kryptonPanel18.Size = new System.Drawing.Size(886, 660);
             this.kryptonPanel18.TabIndex = 0;
             // 
             // kryptonGroupBox5
@@ -701,7 +699,7 @@
             // kryptonGroupBox5.Panel
             // 
             this.kryptonGroupBox5.Panel.Controls.Add(this.txtOutrasInformacoes);
-            this.kryptonGroupBox5.Size = new System.Drawing.Size(461, 551);
+            this.kryptonGroupBox5.Size = new System.Drawing.Size(886, 551);
             this.kryptonGroupBox5.TabIndex = 3;
             this.kryptonGroupBox5.Values.Heading = "Observações";
             // 
@@ -712,7 +710,7 @@
             this.txtOutrasInformacoes.Multiline = true;
             this.txtOutrasInformacoes.Name = "txtOutrasInformacoes";
             this.txtOutrasInformacoes.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.txtOutrasInformacoes.Size = new System.Drawing.Size(457, 519);
+            this.txtOutrasInformacoes.Size = new System.Drawing.Size(882, 519);
             this.txtOutrasInformacoes.TabIndex = 0;
             this.txtOutrasInformacoes.Text = "Observações ";
             // 
@@ -722,7 +720,7 @@
             this.kryptonPanel19.Dock = System.Windows.Forms.DockStyle.Top;
             this.kryptonPanel19.Location = new System.Drawing.Point(0, 0);
             this.kryptonPanel19.Name = "kryptonPanel19";
-            this.kryptonPanel19.Size = new System.Drawing.Size(461, 109);
+            this.kryptonPanel19.Size = new System.Drawing.Size(886, 109);
             this.kryptonPanel19.TabIndex = 0;
             // 
             // kryptonGroupBox4
@@ -740,7 +738,7 @@
             this.kryptonGroupBox4.Panel.Controls.Add(this.kryptonTextBox20);
             this.kryptonGroupBox4.Panel.Controls.Add(this.kryptonLabel23);
             this.kryptonGroupBox4.Panel.Controls.Add(this.kryptonTextBox19);
-            this.kryptonGroupBox4.Size = new System.Drawing.Size(461, 109);
+            this.kryptonGroupBox4.Size = new System.Drawing.Size(886, 109);
             this.kryptonGroupBox4.TabIndex = 1;
             this.kryptonGroupBox4.Values.Heading = "Ultima Visita";
             // 
@@ -784,7 +782,7 @@
             this.kryptonPanel17.Dock = System.Windows.Forms.DockStyle.Top;
             this.kryptonPanel17.Location = new System.Drawing.Point(0, 0);
             this.kryptonPanel17.Name = "kryptonPanel17";
-            this.kryptonPanel17.Size = new System.Drawing.Size(461, 107);
+            this.kryptonPanel17.Size = new System.Drawing.Size(886, 107);
             this.kryptonPanel17.TabIndex = 0;
             // 
             // kryptonGroupBox3
@@ -802,7 +800,7 @@
             this.kryptonGroupBox3.Panel.Controls.Add(this.kryptonLabel21);
             this.kryptonGroupBox3.Panel.Controls.Add(this.kryptonTextBox18);
             this.kryptonGroupBox3.Panel.Controls.Add(this.kryptonTextBox17);
-            this.kryptonGroupBox3.Size = new System.Drawing.Size(461, 107);
+            this.kryptonGroupBox3.Size = new System.Drawing.Size(886, 107);
             this.kryptonGroupBox3.TabIndex = 0;
             this.kryptonGroupBox3.Values.Heading = "Ultima Atualização";
             // 
@@ -1214,7 +1212,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2029, 940);
+            this.ClientSize = new System.Drawing.Size(2218, 940);
             this.Controls.Add(this.kryptonPanel4);
             this.Controls.Add(this.kryptonPanel2);
             this.Controls.Add(this.kryptonPanel1);
