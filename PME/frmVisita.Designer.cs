@@ -325,7 +325,7 @@
             // kryptonLabel8
             // 
             this.kryptonLabel8.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
-            this.kryptonLabel8.Location = new System.Drawing.Point(8, 11);
+            this.kryptonLabel8.Location = new System.Drawing.Point(56, 14);
             this.kryptonLabel8.Name = "kryptonLabel8";
             this.kryptonLabel8.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Silver;
             this.kryptonLabel8.Size = new System.Drawing.Size(95, 24);
@@ -334,7 +334,7 @@
             // 
             // txtIDCliente
             // 
-            this.txtIDCliente.Location = new System.Drawing.Point(98, 8);
+            this.txtIDCliente.Location = new System.Drawing.Point(177, 10);
             this.txtIDCliente.Name = "txtIDCliente";
             this.txtIDCliente.Size = new System.Drawing.Size(151, 27);
             this.txtIDCliente.TabIndex = 29;

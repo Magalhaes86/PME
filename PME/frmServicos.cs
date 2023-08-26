@@ -83,7 +83,7 @@ namespace PME
                         if (rowsAffected > 0)
                         {
                             MessageBox.Show("Serviço excluído com sucesso!");
-                            LimparCampos(); // Chamada à função para limpar os campos após a exclusão
+                          //  LimparCampos(); // Chamada à função para limpar os campos após a exclusão
                         }
                         else
                         {
@@ -97,3 +97,5 @@ namespace PME
                 MessageBox.Show("Digite um ID válido para excluir.");
             }
         }
+    }
+}

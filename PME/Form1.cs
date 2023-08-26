@@ -59,6 +59,13 @@ namespace PME
             frmProduto frmProduto = new frmProduto();
             frmProduto.ShowDialog();
         }
+
+        private void kryptonButton6_Click(object sender, EventArgs e)
+        {
+            frmIntegrador frmIntegrador = new frmIntegrador();
+            frmIntegrador.ShowDialog();
+            
+        }
     }
     }
 
