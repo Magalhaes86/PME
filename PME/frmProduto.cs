@@ -215,5 +215,34 @@ namespace PME
                 MessageBox.Show("Digite um ID válido para excluir.");
             }
         }
+
+        private void PreencherComboBoxErp()
+        {
+            cbxErp.Items.Clear(); // Limpa os itens existentes na ComboBox
+
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                string query = "SELECT ERP FROM ERP"; // Sua consulta para obter os dados ERP
+
+                using (MySqlCommand command = new MySqlCommand(query, connection))
+                {
+                    connection.Open();
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            cbxErp.Items.Add(reader.GetString("ERP")); // Use GetString para obter o valor da coluna ERP
+                        }
+                    }
+                
+
+            }
+            }
+        }
+
+        private void cbxErp_DropDown(object sender, EventArgs e)
+        {
+            PreencherComboBoxErp();
+        }
     }
 }

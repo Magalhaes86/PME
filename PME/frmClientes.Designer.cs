@@ -38,6 +38,7 @@
             this.kryptonLinkLabel2 = new ComponentFactory.Krypton.Toolkit.KryptonLinkLabel();
             this.kryptonLinkLabel1 = new ComponentFactory.Krypton.Toolkit.KryptonLinkLabel();
             this.kryptonPanel22 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
+            this.btnUpdate = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.btnEliminar = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.btnGravar = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.kryptonButton5 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
@@ -106,6 +107,7 @@
             this.kryptonPanel10 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.txtVersaoInstalada = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.txtNempresas = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
+            this.cbxProduto = new ComponentFactory.Krypton.Toolkit.KryptonComboBox();
             this.cbxERP = new ComponentFactory.Krypton.Toolkit.KryptonComboBox();
             this.cbxEstadoLicenca = new ComponentFactory.Krypton.Toolkit.KryptonComboBox();
             this.txtNpostos = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
@@ -124,8 +126,6 @@
             this.kryptonLabel9 = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
             this.kryptonPage2 = new ComponentFactory.Krypton.Navigator.KryptonPage();
             this.kryptonPage3 = new ComponentFactory.Krypton.Navigator.KryptonPage();
-            this.cbxProduto = new ComponentFactory.Krypton.Toolkit.KryptonComboBox();
-            this.btnUpdate = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel1)).BeginInit();
             this.kryptonPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel21)).BeginInit();
@@ -195,6 +195,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.cbxModulosExtra)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel10)).BeginInit();
             this.kryptonPanel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cbxProduto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbxERP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbxEstadoLicenca)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel9)).BeginInit();
@@ -203,7 +204,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.cbxTecnicoDeApoio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPage2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPage3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbxProduto)).BeginInit();
             this.SuspendLayout();
             // 
             // kryptonPalette1
@@ -294,6 +294,15 @@
             this.kryptonPanel22.Name = "kryptonPanel22";
             this.kryptonPanel22.Size = new System.Drawing.Size(696, 138);
             this.kryptonPanel22.TabIndex = 0;
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Location = new System.Drawing.Point(354, 21);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(122, 49);
+            this.btnUpdate.TabIndex = 1;
+            this.btnUpdate.Values.Text = "Update";
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnEliminar
             // 
@@ -887,9 +896,8 @@
             // 
             this.cbxDesenvolvimentos.DropDownWidth = 251;
             this.cbxDesenvolvimentos.Items.AddRange(new object[] {
-            "Activa",
-            "Encerrou",
-            "Mudou de Parceiro"});
+            "SIM",
+            "NÃO"});
             this.cbxDesenvolvimentos.Location = new System.Drawing.Point(188, 10);
             this.cbxDesenvolvimentos.Name = "cbxDesenvolvimentos";
             this.cbxDesenvolvimentos.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Blue;
@@ -950,9 +958,8 @@
             // 
             this.cbxModulosExtra.DropDownWidth = 251;
             this.cbxModulosExtra.Items.AddRange(new object[] {
-            "Activa",
-            "Encerrou",
-            "Mudou de Parceiro"});
+            "SIM",
+            "NÃO"});
             this.cbxModulosExtra.Location = new System.Drawing.Point(167, 10);
             this.cbxModulosExtra.Name = "cbxModulosExtra";
             this.cbxModulosExtra.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Blue;
@@ -1003,6 +1010,16 @@
             this.txtNempresas.Size = new System.Drawing.Size(74, 27);
             this.txtNempresas.TabIndex = 3;
             // 
+            // cbxProduto
+            // 
+            this.cbxProduto.DropDownWidth = 251;
+            this.cbxProduto.Location = new System.Drawing.Point(94, 72);
+            this.cbxProduto.Name = "cbxProduto";
+            this.cbxProduto.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Blue;
+            this.cbxProduto.Size = new System.Drawing.Size(244, 25);
+            this.cbxProduto.TabIndex = 11;
+            this.cbxProduto.DropDown += new System.EventHandler(this.cbxProduto_DropDown);
+            // 
             // cbxERP
             // 
             this.cbxERP.DropDownWidth = 251;
@@ -1016,6 +1033,7 @@
             this.cbxERP.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Blue;
             this.cbxERP.Size = new System.Drawing.Size(244, 25);
             this.cbxERP.TabIndex = 11;
+            this.cbxERP.DropDown += new System.EventHandler(this.cbxERP_DropDown);
             // 
             // cbxEstadoLicenca
             // 
@@ -1118,6 +1136,7 @@
             this.cbxTecnicoResponsavel.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Blue;
             this.cbxTecnicoResponsavel.Size = new System.Drawing.Size(251, 25);
             this.cbxTecnicoResponsavel.TabIndex = 3;
+            this.cbxTecnicoResponsavel.DropDown += new System.EventHandler(this.cbxTecnicoResponsavel_DropDown);
             // 
             // txtGestorDeConta
             // 
@@ -1135,6 +1154,7 @@
             this.cbxTecnicoDeApoio.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Blue;
             this.cbxTecnicoDeApoio.Size = new System.Drawing.Size(251, 25);
             this.cbxTecnicoDeApoio.TabIndex = 2;
+            this.cbxTecnicoDeApoio.DropDown += new System.EventHandler(this.cbxTecnicoDeApoio_DropDown);
             // 
             // kryptonLabel10
             // 
@@ -1189,29 +1209,6 @@
             this.kryptonPage3.Text = "Historico Atualizações";
             this.kryptonPage3.ToolTipTitle = "Page ToolTip";
             this.kryptonPage3.UniqueName = "A1DDB9DD2ED446CAE09370C2E4CD7C92";
-            // 
-            // cbxProduto
-            // 
-            this.cbxProduto.DropDownWidth = 251;
-            this.cbxProduto.Items.AddRange(new object[] {
-            "XD",
-            "SAGE",
-            "WINTOUCH",
-            "PRIMAVERA"});
-            this.cbxProduto.Location = new System.Drawing.Point(94, 72);
-            this.cbxProduto.Name = "cbxProduto";
-            this.cbxProduto.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Blue;
-            this.cbxProduto.Size = new System.Drawing.Size(244, 25);
-            this.cbxProduto.TabIndex = 11;
-            // 
-            // btnUpdate
-            // 
-            this.btnUpdate.Location = new System.Drawing.Point(354, 21);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(122, 49);
-            this.btnUpdate.TabIndex = 1;
-            this.btnUpdate.Values.Text = "Update";
-            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // frmClientes
             // 
@@ -1305,6 +1302,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel10)).EndInit();
             this.kryptonPanel10.ResumeLayout(false);
             this.kryptonPanel10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cbxProduto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbxERP)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbxEstadoLicenca)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel9)).EndInit();
@@ -1314,7 +1312,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.cbxTecnicoDeApoio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPage2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPage3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbxProduto)).EndInit();
             this.ResumeLayout(false);
 
         }

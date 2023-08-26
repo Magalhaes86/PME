@@ -53,6 +53,12 @@ namespace PME
             frmVisita frmVisita = new frmVisita();
             frmVisita.ShowDialog();
         }
+
+        private void btnProdutos_Click(object sender, EventArgs e)
+        {
+            frmProduto frmProduto = new frmProduto();
+            frmProduto.ShowDialog();
+        }
     }
     }
 

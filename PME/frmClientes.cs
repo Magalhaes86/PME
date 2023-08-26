@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using MySqlX.XDevAPI.Relational;
 
 
 namespace PME
@@ -234,6 +235,136 @@ namespace PME
             {
                 MessageBox.Show("Digite um ID válido para excluir.");
             }
+        }
+
+     
+
+
+
+
+
+        private void cbxERP_DropDown(object sender, EventArgs e)
+        {
+            PreencherComboBoxErp();
+        }
+
+        private void PreencherComboBoxErp()
+        {
+
+            cbxERP.Items.Clear(); // Limpa os itens existentes na ComboBox
+
+            HashSet<string> erpValues = new HashSet<string>(); // Usar um HashSet para armazenar valores únicos
+
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                string query = "SELECT ERP FROM Produto"; // Sua consulta para obter os dados ERP
+
+                using (MySqlCommand command = new MySqlCommand(query, connection))
+                {
+                    connection.Open();
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            string erpValue = reader.GetString("ERP");
+                            if (!erpValues.Contains(erpValue)) // Verificar se o valor já existe no HashSet
+                            {
+                                erpValues.Add(erpValue); // Adicionar ao HashSet se não existir
+                                cbxERP.Items.Add(erpValue);
+                            }
+                        }
+                    }
+                }
+            }          
+        }
+
+
+
+
+        private void PreencherComboBoxProduto()
+        {
+            cbxProduto.Items.Clear(); // Limpa os itens existentes na ComboBox
+
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                string query = "SELECT PRODUTO FROM Produto WHERE ERP = @ERP"; // Consulta modificada para incluir a cláusula WHERE
+
+                using (MySqlCommand command = new MySqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@ERP", cbxERP.Text); // Use o valor atual da cbxERP
+                    connection.Open();
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            cbxProduto.Items.Add(reader.GetString("PRODUTO")); // Use GetString para obter o valor da coluna PRODUTO
+                        }
+                    }
+                }
+            }
+        }
+
+
+        private void cbxProduto_DropDown(object sender, EventArgs e)
+        {
+            PreencherComboBoxProduto();
+        }
+
+
+        private void PreencherComboBoxTecnicoResponsavel()
+        {
+            cbxTecnicoResponsavel.Items.Clear(); // Limpa os itens existentes na ComboBox
+
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                string query = "SELECT Nome FROM Equipa"; // Sua consulta para obter os nomes da equipe
+
+                using (MySqlCommand command = new MySqlCommand(query, connection))
+                {
+                    connection.Open();
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            cbxTecnicoResponsavel.Items.Add(reader.GetString("Nome")); // Use GetString para obter o valor da coluna Nome
+                        }
+                    }
+                }
+            }
+        }
+
+
+        private void cbxTecnicoResponsavel_DropDown(object sender, EventArgs e)
+        {
+            PreencherComboBoxTecnicoResponsavel();
+        }
+
+
+        private void PreencherComboBoxTecnicoApoio()
+        {
+            cbxTecnicoDeApoio.Items.Clear(); // Limpa os itens existentes na ComboBox
+
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                string query = "SELECT Nome FROM Equipa"; // Sua consulta para obter os nomes da equipe
+
+                using (MySqlCommand command = new MySqlCommand(query, connection))
+                {
+                    connection.Open();
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            cbxTecnicoDeApoio.Items.Add(reader.GetString("Nome")); // Use GetString para obter o valor da coluna Nome
+                        }
+                    }
+                }
+            }
+        }
+
+        private void cbxTecnicoDeApoio_DropDown(object sender, EventArgs e)
+        {
+            PreencherComboBoxTecnicoApoio();
         }
     }
 }

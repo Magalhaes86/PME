@@ -34,6 +34,7 @@
             this.kryptonButton2 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.kryptonButton3 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.kryptonButton4 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+            this.btnProdutos = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.SuspendLayout();
             // 
             // kryptonPalette1
@@ -84,6 +85,15 @@
             this.kryptonButton4.Values.Text = "Visitas";
             this.kryptonButton4.Click += new System.EventHandler(this.kryptonButton4_Click);
             // 
+            // btnProdutos
+            // 
+            this.btnProdutos.Location = new System.Drawing.Point(626, 175);
+            this.btnProdutos.Name = "btnProdutos";
+            this.btnProdutos.Size = new System.Drawing.Size(220, 59);
+            this.btnProdutos.TabIndex = 3;
+            this.btnProdutos.Values.Text = "Clientes";
+            this.btnProdutos.Click += new System.EventHandler(this.btnProdutos_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -91,6 +101,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1239, 511);
             this.Controls.Add(this.kryptonButton4);
+            this.Controls.Add(this.btnProdutos);
             this.Controls.Add(this.kryptonButton3);
             this.Controls.Add(this.kryptonButton2);
             this.Controls.Add(this.kryptonButton1);
@@ -108,6 +119,7 @@
         private ComponentFactory.Krypton.Toolkit.KryptonButton kryptonButton2;
         private ComponentFactory.Krypton.Toolkit.KryptonButton kryptonButton3;
         private ComponentFactory.Krypton.Toolkit.KryptonButton kryptonButton4;
+        private ComponentFactory.Krypton.Toolkit.KryptonButton btnProdutos;
     }
 }
 

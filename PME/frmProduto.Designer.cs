@@ -198,6 +198,7 @@
             this.cbxErp.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Blue;
             this.cbxErp.Size = new System.Drawing.Size(251, 25);
             this.cbxErp.TabIndex = 6;
+            this.cbxErp.DropDown += new System.EventHandler(this.cbxErp_DropDown);
             // 
             // kryptonLabel13
             // 
