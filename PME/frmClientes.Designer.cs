@@ -584,16 +584,16 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(81, 238);
+            this.txtEmail.Location = new System.Drawing.Point(86, 238);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(482, 27);
+            this.txtEmail.Size = new System.Drawing.Size(477, 27);
             this.txtEmail.TabIndex = 1;
             // 
             // txtEmailSecundario
             // 
-            this.txtEmailSecundario.Location = new System.Drawing.Point(81, 292);
+            this.txtEmailSecundario.Location = new System.Drawing.Point(86, 292);
             this.txtEmailSecundario.Name = "txtEmailSecundario";
-            this.txtEmailSecundario.Size = new System.Drawing.Size(482, 27);
+            this.txtEmailSecundario.Size = new System.Drawing.Size(477, 27);
             this.txtEmailSecundario.TabIndex = 1;
             // 
             // txtTlmSecundario
@@ -605,35 +605,35 @@
             // 
             // txtTlm
             // 
-            this.txtTlm.Location = new System.Drawing.Point(81, 191);
+            this.txtTlm.Location = new System.Drawing.Point(84, 191);
             this.txtTlm.Name = "txtTlm";
             this.txtTlm.Size = new System.Drawing.Size(198, 27);
             this.txtTlm.TabIndex = 1;
             // 
             // txtNomeComercial
             // 
-            this.txtNomeComercial.Location = new System.Drawing.Point(81, 142);
+            this.txtNomeComercial.Location = new System.Drawing.Point(86, 142);
             this.txtNomeComercial.Name = "txtNomeComercial";
-            this.txtNomeComercial.Size = new System.Drawing.Size(482, 27);
+            this.txtNomeComercial.Size = new System.Drawing.Size(477, 27);
             this.txtNomeComercial.TabIndex = 1;
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(81, 93);
+            this.txtNome.Location = new System.Drawing.Point(86, 93);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(482, 27);
+            this.txtNome.Size = new System.Drawing.Size(477, 27);
             this.txtNome.TabIndex = 1;
             // 
             // txtCodCliente
             // 
-            this.txtCodCliente.Location = new System.Drawing.Point(81, 10);
+            this.txtCodCliente.Location = new System.Drawing.Point(86, 10);
             this.txtCodCliente.Name = "txtCodCliente";
             this.txtCodCliente.Size = new System.Drawing.Size(181, 27);
             this.txtCodCliente.TabIndex = 1;
             // 
             // txtNif
             // 
-            this.txtNif.Location = new System.Drawing.Point(81, 50);
+            this.txtNif.Location = new System.Drawing.Point(86, 50);
             this.txtNif.Name = "txtNif";
             this.txtNif.Size = new System.Drawing.Size(234, 27);
             this.txtNif.TabIndex = 1;
@@ -1037,7 +1037,7 @@
             this.cbx1Desenvolvimentos1.Items.AddRange(new object[] {
             "SIM",
             "NÃO"});
-            this.cbx1Desenvolvimentos1.Location = new System.Drawing.Point(593, 322);
+            this.cbx1Desenvolvimentos1.Location = new System.Drawing.Point(684, 332);
             this.cbx1Desenvolvimentos1.Name = "cbx1Desenvolvimentos1";
             this.cbx1Desenvolvimentos1.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Blue;
             this.cbx1Desenvolvimentos1.Size = new System.Drawing.Size(148, 25);
@@ -1083,7 +1083,7 @@
             // kryptonLabel19
             // 
             this.kryptonLabel19.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
-            this.kryptonLabel19.Location = new System.Drawing.Point(442, 323);
+            this.kryptonLabel19.Location = new System.Drawing.Point(512, 333);
             this.kryptonLabel19.Name = "kryptonLabel19";
             this.kryptonLabel19.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Silver;
             this.kryptonLabel19.Size = new System.Drawing.Size(145, 24);
@@ -1106,7 +1106,7 @@
             this.cbx1ModulosExtra1.Items.AddRange(new object[] {
             "SIM",
             "NÃO"});
-            this.cbx1ModulosExtra1.Location = new System.Drawing.Point(173, 309);
+            this.cbx1ModulosExtra1.Location = new System.Drawing.Point(190, 333);
             this.cbx1ModulosExtra1.Name = "cbx1ModulosExtra1";
             this.cbx1ModulosExtra1.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Blue;
             this.cbx1ModulosExtra1.Size = new System.Drawing.Size(148, 25);
@@ -1115,7 +1115,7 @@
             // kryptonLabel18
             // 
             this.kryptonLabel18.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
-            this.kryptonLabel18.Location = new System.Drawing.Point(20, 309);
+            this.kryptonLabel18.Location = new System.Drawing.Point(20, 332);
             this.kryptonLabel18.Name = "kryptonLabel18";
             this.kryptonLabel18.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Silver;
             this.kryptonLabel18.Size = new System.Drawing.Size(142, 24);
@@ -1232,7 +1232,7 @@
             // kryptonLabel31
             // 
             this.kryptonLabel31.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
-            this.kryptonLabel31.Location = new System.Drawing.Point(8, 308);
+            this.kryptonLabel31.Location = new System.Drawing.Point(7, 259);
             this.kryptonLabel31.Name = "kryptonLabel31";
             this.kryptonLabel31.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Silver;
             this.kryptonLabel31.Size = new System.Drawing.Size(20, 24);
@@ -1242,7 +1242,7 @@
             // kryptonLabel28
             // 
             this.kryptonLabel28.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
-            this.kryptonLabel28.Location = new System.Drawing.Point(8, 261);
+            this.kryptonLabel28.Location = new System.Drawing.Point(8, 207);
             this.kryptonLabel28.Name = "kryptonLabel28";
             this.kryptonLabel28.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Silver;
             this.kryptonLabel28.Size = new System.Drawing.Size(20, 24);
@@ -1262,7 +1262,7 @@
             // kryptonLabel29
             // 
             this.kryptonLabel29.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
-            this.kryptonLabel29.Location = new System.Drawing.Point(10, 140);
+            this.kryptonLabel29.Location = new System.Drawing.Point(10, 86);
             this.kryptonLabel29.Name = "kryptonLabel29";
             this.kryptonLabel29.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Silver;
             this.kryptonLabel29.Size = new System.Drawing.Size(20, 24);
@@ -1272,7 +1272,7 @@
             // kryptonLabel25
             // 
             this.kryptonLabel25.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
-            this.kryptonLabel25.Location = new System.Drawing.Point(10, 180);
+            this.kryptonLabel25.Location = new System.Drawing.Point(10, 126);
             this.kryptonLabel25.Name = "kryptonLabel25";
             this.kryptonLabel25.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Silver;
             this.kryptonLabel25.Size = new System.Drawing.Size(20, 24);
@@ -1282,7 +1282,7 @@
             // kryptonLabel27
             // 
             this.kryptonLabel27.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
-            this.kryptonLabel27.Location = new System.Drawing.Point(9, 222);
+            this.kryptonLabel27.Location = new System.Drawing.Point(9, 168);
             this.kryptonLabel27.Name = "kryptonLabel27";
             this.kryptonLabel27.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Silver;
             this.kryptonLabel27.Size = new System.Drawing.Size(20, 24);
@@ -2356,7 +2356,7 @@
             // kryptonLabel9
             // 
             this.kryptonLabel9.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.SuperTip;
-            this.kryptonLabel9.Location = new System.Drawing.Point(25, 106);
+            this.kryptonLabel9.Location = new System.Drawing.Point(45, 106);
             this.kryptonLabel9.Name = "kryptonLabel9";
             this.kryptonLabel9.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Silver;
             this.kryptonLabel9.Size = new System.Drawing.Size(130, 30);
@@ -2366,7 +2366,7 @@
             // kryptonLabel61
             // 
             this.kryptonLabel61.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
-            this.kryptonLabel61.Location = new System.Drawing.Point(478, 112);
+            this.kryptonLabel61.Location = new System.Drawing.Point(464, 109);
             this.kryptonLabel61.Name = "kryptonLabel61";
             this.kryptonLabel61.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Silver;
             this.kryptonLabel61.Size = new System.Drawing.Size(48, 24);
@@ -2376,7 +2376,7 @@
             // kryptonLabel60
             // 
             this.kryptonLabel60.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
-            this.kryptonLabel60.Location = new System.Drawing.Point(478, 66);
+            this.kryptonLabel60.Location = new System.Drawing.Point(464, 66);
             this.kryptonLabel60.Name = "kryptonLabel60";
             this.kryptonLabel60.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Silver;
             this.kryptonLabel60.Size = new System.Drawing.Size(52, 24);
@@ -2631,7 +2631,7 @@
             // 
             // kryptonButton8
             // 
-            this.kryptonButton8.Location = new System.Drawing.Point(286, 14);
+            this.kryptonButton8.Location = new System.Drawing.Point(291, 14);
             this.kryptonButton8.Name = "kryptonButton8";
             this.kryptonButton8.Size = new System.Drawing.Size(73, 22);
             this.kryptonButton8.TabIndex = 2;

@@ -65,6 +65,8 @@ namespace PME
             {
                 DataGridViewRow selectedRow = kryptonDataGridView1.Rows[e.RowIndex];
 
+                frmClientes clienteForm = (frmClientes)Application.OpenForms["frmClientes"];
+
                 if (clienteForm == null || clienteForm.IsDisposed)
                 {
                     clienteForm = new frmClientes();
@@ -78,42 +80,49 @@ namespace PME
                 clienteForm.txtTlmSecundario.Text = selectedRow.Cells[5].Value.ToString();
                 clienteForm.txtEmail.Text = selectedRow.Cells[6].Value.ToString();
                 clienteForm.txtEmailSecundario.Text = selectedRow.Cells[7].Value.ToString();
+
                 clienteForm.txtEstadoEmpresa.Text = selectedRow.Cells[8].Value.ToString();
                 clienteForm.cbxTecnicoResponsavel.Text = selectedRow.Cells[9].Value.ToString();
                 clienteForm.cbxTecnicoDeApoio.Text = selectedRow.Cells[10].Value.ToString();
+
                 clienteForm.txtGestorDeConta.Text = selectedRow.Cells[11].Value.ToString();
                 clienteForm.cbxERP1.Text = selectedRow.Cells[12].Value.ToString();
                 clienteForm.cbxERP2.Text = selectedRow.Cells[13].Value.ToString();
                 clienteForm.cbxERP3.Text = selectedRow.Cells[14].Value.ToString();
-                clienteForm.txtCodErp1.Text = selectedRow.Cells[15].Value.ToString();
-                clienteForm.cbx1ERP1.Text = selectedRow.Cells[16].Value.ToString();
-                clienteForm.txt1Npostos1.Text = selectedRow.Cells[17].Value.ToString();
-                clienteForm.txt1Nempresas1.Text = selectedRow.Cells[18].Value.ToString();
-                clienteForm.cbx1Produto1.Text = selectedRow.Cells[19].Value.ToString();
-                clienteForm.cbx1Produto2.Text = selectedRow.Cells[20].Value.ToString();
-                clienteForm.cbx1Produto3.Text = selectedRow.Cells[21].Value.ToString();
-                clienteForm.cbx1Produto4.Text = selectedRow.Cells[22].Value.ToString();
-                clienteForm.cbx1Produto5.Text = selectedRow.Cells[23].Value.ToString();
-                clienteForm.txtVersao1Instalada1.Text = selectedRow.Cells[24].Value.ToString();
-                clienteForm.txtVersao1Instalada2.Text = selectedRow.Cells[25].Value.ToString();
-                clienteForm.txtVersao1Instalada3.Text = selectedRow.Cells[26].Value.ToString();
-                clienteForm.txtVersao1Instalada4.Text = selectedRow.Cells[27].Value.ToString();
-                clienteForm.txtVersao1Instalada5.Text = selectedRow.Cells[28].Value.ToString();
-                clienteForm.cbEstado1Lic1.Text = selectedRow.Cells[29].Value.ToString();
-                clienteForm.cbEstado1Lic2.Text = selectedRow.Cells[30].Value.ToString();
-                clienteForm.cbEstado1Lic3.Text = selectedRow.Cells[31].Value.ToString();
-                clienteForm.cbEstado1Lic4.Text = selectedRow.Cells[32].Value.ToString();
-                clienteForm.cbEstado1Lic5.Text = selectedRow.Cells[33].Value.ToString();
-                clienteForm.cbTecnico1Responsa1.Text = selectedRow.Cells[34].Value.ToString();
-                clienteForm.cbTecnico1Responsa2.Text = selectedRow.Cells[35].Value.ToString();
-                clienteForm.cbTecnico1Responsa3.Text = selectedRow.Cells[36].Value.ToString();
-                clienteForm.cbTecnico1Responsa4.Text = selectedRow.Cells[37].Value.ToString();
-                clienteForm.cbTecnico1Responsa5.Text = selectedRow.Cells[38].Value.ToString();
-                clienteForm.cbx1ModulosExtra1.Text = selectedRow.Cells[39].Value.ToString();
-                clienteForm.txt1DescricaoModulos1.Text = selectedRow.Cells[40].Value.ToString();
-                clienteForm.cbx1Desenvolvimentos1.Text = selectedRow.Cells[41].Value.ToString();
 
-        
+                clienteForm.txtCodErp1.Text = selectedRow.Cells[15].Value.ToString();
+
+                clienteForm.cbx1ERP1.Text = selectedRow.Cells[17].Value.ToString();
+
+
+
+                clienteForm.txt1Npostos1.Text = selectedRow.Cells[18].Value.ToString();
+                clienteForm.txt1Nempresas1.Text = selectedRow.Cells[19].Value.ToString();
+                clienteForm.cbx1Produto1.Text = selectedRow.Cells[20].Value.ToString();
+                clienteForm.cbx1Produto2.Text = selectedRow.Cells[21].Value.ToString();
+                clienteForm.cbx1Produto3.Text = selectedRow.Cells[22].Value.ToString();
+                clienteForm.cbx1Produto4.Text = selectedRow.Cells[23].Value.ToString();
+                clienteForm.cbx1Produto5.Text = selectedRow.Cells[24].Value.ToString();
+                clienteForm.txtVersao1Instalada1.Text = selectedRow.Cells[25].Value.ToString();
+                clienteForm.txtVersao1Instalada2.Text = selectedRow.Cells[26].Value.ToString();
+                clienteForm.txtVersao1Instalada3.Text = selectedRow.Cells[27].Value.ToString();
+                clienteForm.txtVersao1Instalada4.Text = selectedRow.Cells[28].Value.ToString();
+                clienteForm.txtVersao1Instalada5.Text = selectedRow.Cells[29].Value.ToString();
+                clienteForm.cbEstado1Lic1.Text = selectedRow.Cells[30].Value.ToString();
+                clienteForm.cbEstado1Lic2.Text = selectedRow.Cells[31].Value.ToString();
+                clienteForm.cbEstado1Lic3.Text = selectedRow.Cells[32].Value.ToString();
+                clienteForm.cbEstado1Lic4.Text = selectedRow.Cells[33].Value.ToString();
+                clienteForm.cbEstado1Lic5.Text = selectedRow.Cells[34].Value.ToString();
+                clienteForm.cbTecnico1Responsa1.Text = selectedRow.Cells[35].Value.ToString();
+                clienteForm.cbTecnico1Responsa2.Text = selectedRow.Cells[36].Value.ToString();
+                clienteForm.cbTecnico1Responsa3.Text = selectedRow.Cells[37].Value.ToString();
+                clienteForm.cbTecnico1Responsa4.Text = selectedRow.Cells[38].Value.ToString();
+                clienteForm.cbTecnico1Responsa5.Text = selectedRow.Cells[39].Value.ToString();
+                clienteForm.cbx1ModulosExtra1.Text = selectedRow.Cells[40].Value.ToString();
+                clienteForm.txt1DescricaoModulos1.Text = selectedRow.Cells[41].Value.ToString();
+                clienteForm.cbx1Desenvolvimentos1.Text = selectedRow.Cells[42].Value.ToString();
+
+                Close();
             }
         }
     }
