@@ -80,22 +80,15 @@ namespace PME
                 clienteForm.txtTlmSecundario.Text = selectedRow.Cells[5].Value.ToString();
                 clienteForm.txtEmail.Text = selectedRow.Cells[6].Value.ToString();
                 clienteForm.txtEmailSecundario.Text = selectedRow.Cells[7].Value.ToString();
-
                 clienteForm.txtEstadoEmpresa.Text = selectedRow.Cells[8].Value.ToString();
                 clienteForm.cbxTecnicoResponsavel.Text = selectedRow.Cells[9].Value.ToString();
                 clienteForm.cbxTecnicoDeApoio.Text = selectedRow.Cells[10].Value.ToString();
-
                 clienteForm.txtGestorDeConta.Text = selectedRow.Cells[11].Value.ToString();
                 clienteForm.cbxERP1.Text = selectedRow.Cells[12].Value.ToString();
                 clienteForm.cbxERP2.Text = selectedRow.Cells[13].Value.ToString();
                 clienteForm.cbxERP3.Text = selectedRow.Cells[14].Value.ToString();
-
                 clienteForm.txtCodErp1.Text = selectedRow.Cells[15].Value.ToString();
-
                 clienteForm.cbx1ERP1.Text = selectedRow.Cells[17].Value.ToString();
-
-
-
                 clienteForm.txt1Npostos1.Text = selectedRow.Cells[18].Value.ToString();
                 clienteForm.txt1Nempresas1.Text = selectedRow.Cells[19].Value.ToString();
                 clienteForm.cbx1Produto1.Text = selectedRow.Cells[20].Value.ToString();
