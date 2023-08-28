@@ -55,7 +55,10 @@ namespace PME
         {
 
         }
-
+        private void CloseFormListaClientes()
+        {
+            Close();
+        }
         private void kryptonDataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
@@ -110,8 +113,7 @@ namespace PME
                 clienteForm.txt1DescricaoModulos1.Text = selectedRow.Cells[40].Value.ToString();
                 clienteForm.cbx1Desenvolvimentos1.Text = selectedRow.Cells[41].Value.ToString();
 
-                clienteForm.FormClosed += (s, ev) => Close();
-                clienteForm.Show();
+        
             }
         }
     }
