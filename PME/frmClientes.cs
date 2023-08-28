@@ -103,7 +103,9 @@ namespace PME
                     command.Parameters.AddWithValue("@Desenvolvimentos", cbxDesenvolvimentos.Text);
                     command.Parameters.AddWithValue("@DescricaoModulos", txtDescricaoModulos.Text);
                     command.Parameters.AddWithValue("@DescricaoDesenvolvimentos", txtDescricaoDesenvolvimentos.Text);
-                    command.Parameters.AddWithValue("@OutrasInformacoes", txtOutrasInformacoes.Text);
+
+
+                  //  command.Parameters.AddWithValue("@OutrasInformacoes", txtOutrasInformacoes.Text);
 
                     connection.Open();
                     int insertedId = Convert.ToInt32(command.ExecuteScalar()); // Recupera o ID gerado
@@ -159,7 +161,7 @@ namespace PME
                         command.Parameters.AddWithValue("@Desenvolvimentos", cbxDesenvolvimentos.Text);
                         command.Parameters.AddWithValue("@DescricaoModulos", txtDescricaoModulos.Text);
                         command.Parameters.AddWithValue("@DescricaoDesenvolvimentos", txtDescricaoDesenvolvimentos.Text);
-                        command.Parameters.AddWithValue("@OutrasInformacoes", txtOutrasInformacoes.Text);
+                    //    command.Parameters.AddWithValue("@OutrasInformacoes", txtOutrasInformacoes.Text);
                         command.Parameters.AddWithValue("@ID", txtCodCliente.Text);
 
                         connection.Open();
@@ -200,7 +202,9 @@ namespace PME
             cbxDesenvolvimentos.SelectedIndex = -1;
             txtDescricaoModulos.Text = "";
             txtDescricaoDesenvolvimentos.Text = "";
-            txtOutrasInformacoes.Text = "";
+
+
+           // txtOutrasInformacoes.Text = "";
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
