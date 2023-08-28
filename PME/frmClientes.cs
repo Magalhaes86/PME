@@ -640,6 +640,12 @@ namespace PME
             cbx3ERP3.Text = cbxERP3.Text;
             txt3Npostos3.Focus();
         }
+
+        private void kryptonButton8_Click(object sender, EventArgs e)
+        {
+            frmListaClientes frmListaClientes = new frmListaClientes();
+            frmListaClientes.ShowDialog();
+        }
     }
     }
 

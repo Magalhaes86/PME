@@ -35,9 +35,14 @@
             this.kryptonButton2 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.kryptonButton1 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.kryptonButton7 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+            this.kryptonButton23 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+            this.kryptonButton22 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+            this.kryptonButton21 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+            this.kryptonButton20 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.kryptonPanel2 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.kryptonDockableNavigator1 = new ComponentFactory.Krypton.Docking.KryptonDockableNavigator();
             this.PageXd = new ComponentFactory.Krypton.Navigator.KryptonPage();
+            this.dgvAtualizacoesXD = new ComponentFactory.Krypton.Toolkit.KryptonDataGridView();
             this.kryptonPanel7 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.kryptonButton6 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.kryptonButton5 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
@@ -62,11 +67,7 @@
             this.kryptonLabel3 = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
             this.kryptonLabel10 = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
             this.PageSage = new ComponentFactory.Krypton.Navigator.KryptonPage();
-            this.kryptonPanel8 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
-            this.PageWintouch = new ComponentFactory.Krypton.Navigator.KryptonPage();
-            this.kryptonPanel9 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
-            this.PagePrimavera = new ComponentFactory.Krypton.Navigator.KryptonPage();
-            this.kryptonPanel10 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
+            this.dgvAtualizacoesSage = new ComponentFactory.Krypton.Toolkit.KryptonDataGridView();
             this.kryptonPanel4 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.kryptonGroupBox1 = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
             this.kryptonButton11 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
@@ -87,6 +88,9 @@
             this.kryptonLabel14 = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
             this.kryptonLabel15 = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
             this.kryptonLabel16 = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
+            this.kryptonPanel8 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
+            this.PageWintouch = new ComponentFactory.Krypton.Navigator.KryptonPage();
+            this.dgvAtualizacoesWintouch = new ComponentFactory.Krypton.Toolkit.KryptonDataGridView();
             this.kryptonPanel5 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.kryptonGroupBox2 = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
             this.kryptonButton14 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
@@ -107,6 +111,9 @@
             this.kryptonLabel22 = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
             this.kryptonLabel23 = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
             this.kryptonLabel24 = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
+            this.kryptonPanel9 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
+            this.PagePrimavera = new ComponentFactory.Krypton.Navigator.KryptonPage();
+            this.dgvAtualizacoesPrimavera = new ComponentFactory.Krypton.Toolkit.KryptonDataGridView();
             this.kryptonPanel6 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.kryptonGroupBox3 = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
             this.kryptonButton17 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
@@ -127,14 +134,7 @@
             this.kryptonLabel30 = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
             this.kryptonLabel31 = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
             this.kryptonLabel32 = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
-            this.dgvAtualizacoesXD = new ComponentFactory.Krypton.Toolkit.KryptonDataGridView();
-            this.dgvAtualizacoesSage = new ComponentFactory.Krypton.Toolkit.KryptonDataGridView();
-            this.dgvAtualizacoesWintouch = new ComponentFactory.Krypton.Toolkit.KryptonDataGridView();
-            this.dgvAtualizacoesPrimavera = new ComponentFactory.Krypton.Toolkit.KryptonDataGridView();
-            this.kryptonButton20 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-            this.kryptonButton21 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-            this.kryptonButton22 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-            this.kryptonButton23 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+            this.kryptonPanel10 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel1)).BeginInit();
             this.kryptonPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel20)).BeginInit();
@@ -145,6 +145,7 @@
             this.kryptonDockableNavigator1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PageXd)).BeginInit();
             this.PageXd.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAtualizacoesXD)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel7)).BeginInit();
             this.kryptonPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel3)).BeginInit();
@@ -156,13 +157,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.kryptonComboBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PageSage)).BeginInit();
             this.PageSage.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PageWintouch)).BeginInit();
-            this.PageWintouch.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PagePrimavera)).BeginInit();
-            this.PagePrimavera.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAtualizacoesSage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel4)).BeginInit();
             this.kryptonPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox1)).BeginInit();
@@ -170,6 +165,10 @@
             this.kryptonGroupBox1.Panel.SuspendLayout();
             this.kryptonGroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonComboBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PageWintouch)).BeginInit();
+            this.PageWintouch.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAtualizacoesWintouch)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel5)).BeginInit();
             this.kryptonPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox2)).BeginInit();
@@ -177,6 +176,10 @@
             this.kryptonGroupBox2.Panel.SuspendLayout();
             this.kryptonGroupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonComboBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PagePrimavera)).BeginInit();
+            this.PagePrimavera.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAtualizacoesPrimavera)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel6)).BeginInit();
             this.kryptonPanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox3)).BeginInit();
@@ -184,10 +187,7 @@
             this.kryptonGroupBox3.Panel.SuspendLayout();
             this.kryptonGroupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonComboBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAtualizacoesXD)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAtualizacoesSage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAtualizacoesWintouch)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAtualizacoesPrimavera)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel10)).BeginInit();
             this.SuspendLayout();
             // 
             // kryptonPanel1
@@ -242,6 +242,7 @@
             this.kryptonButton2.Size = new System.Drawing.Size(155, 49);
             this.kryptonButton2.TabIndex = 0;
             this.kryptonButton2.Values.Text = "Visitas";
+            this.kryptonButton2.Click += new System.EventHandler(this.kryptonButton2_Click);
             // 
             // kryptonButton1
             // 
@@ -259,6 +260,42 @@
             this.kryptonButton7.Size = new System.Drawing.Size(116, 49);
             this.kryptonButton7.TabIndex = 0;
             this.kryptonButton7.Values.Text = "Limpar Filtros";
+            // 
+            // kryptonButton23
+            // 
+            this.kryptonButton23.Location = new System.Drawing.Point(1333, 26);
+            this.kryptonButton23.Name = "kryptonButton23";
+            this.kryptonButton23.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Silver;
+            this.kryptonButton23.Size = new System.Drawing.Size(219, 35);
+            this.kryptonButton23.TabIndex = 0;
+            this.kryptonButton23.Values.Text = "Atualizar Datagrid wintouch";
+            // 
+            // kryptonButton22
+            // 
+            this.kryptonButton22.Location = new System.Drawing.Point(1594, 28);
+            this.kryptonButton22.Name = "kryptonButton22";
+            this.kryptonButton22.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Silver;
+            this.kryptonButton22.Size = new System.Drawing.Size(219, 35);
+            this.kryptonButton22.TabIndex = 0;
+            this.kryptonButton22.Values.Text = "Atualizar Datagrid primavera";
+            // 
+            // kryptonButton21
+            // 
+            this.kryptonButton21.Location = new System.Drawing.Point(1078, 26);
+            this.kryptonButton21.Name = "kryptonButton21";
+            this.kryptonButton21.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Silver;
+            this.kryptonButton21.Size = new System.Drawing.Size(219, 35);
+            this.kryptonButton21.TabIndex = 0;
+            this.kryptonButton21.Values.Text = "Atualizar Datagrid sage";
+            // 
+            // kryptonButton20
+            // 
+            this.kryptonButton20.Location = new System.Drawing.Point(834, 26);
+            this.kryptonButton20.Name = "kryptonButton20";
+            this.kryptonButton20.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Silver;
+            this.kryptonButton20.Size = new System.Drawing.Size(219, 35);
+            this.kryptonButton20.TabIndex = 0;
+            this.kryptonButton20.Values.Text = "Atualizar Datagrid XD";
             // 
             // kryptonPanel2
             // 
@@ -306,6 +343,17 @@
             this.PageXd.Text = "XD";
             this.PageXd.ToolTipTitle = "Page ToolTip";
             this.PageXd.UniqueName = "35C7469F258B4BD55A8FB96840BDD46E";
+            // 
+            // dgvAtualizacoesXD
+            // 
+            this.dgvAtualizacoesXD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAtualizacoesXD.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvAtualizacoesXD.Location = new System.Drawing.Point(0, 84);
+            this.dgvAtualizacoesXD.Name = "dgvAtualizacoesXD";
+            this.dgvAtualizacoesXD.RowHeadersWidth = 51;
+            this.dgvAtualizacoesXD.RowTemplate.Height = 24;
+            this.dgvAtualizacoesXD.Size = new System.Drawing.Size(2008, 771);
+            this.dgvAtualizacoesXD.TabIndex = 2;
             // 
             // kryptonPanel7
             // 
@@ -567,62 +615,16 @@
             this.PageSage.ToolTipTitle = "Page ToolTip";
             this.PageSage.UniqueName = "7F453C6D61B746DFA883D0D9D79F4678";
             // 
-            // kryptonPanel8
+            // dgvAtualizacoesSage
             // 
-            this.kryptonPanel8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.kryptonPanel8.Location = new System.Drawing.Point(0, 851);
-            this.kryptonPanel8.Name = "kryptonPanel8";
-            this.kryptonPanel8.PanelBackStyle = ComponentFactory.Krypton.Toolkit.PaletteBackStyle.HeaderSecondary;
-            this.kryptonPanel8.Size = new System.Drawing.Size(2008, 57);
-            this.kryptonPanel8.TabIndex = 2;
-            // 
-            // PageWintouch
-            // 
-            this.PageWintouch.AutoHiddenSlideSize = new System.Drawing.Size(200, 200);
-            this.PageWintouch.Controls.Add(this.dgvAtualizacoesWintouch);
-            this.PageWintouch.Controls.Add(this.kryptonPanel5);
-            this.PageWintouch.Controls.Add(this.kryptonPanel9);
-            this.PageWintouch.Flags = 65534;
-            this.PageWintouch.LastVisibleSet = true;
-            this.PageWintouch.MinimumSize = new System.Drawing.Size(50, 50);
-            this.PageWintouch.Name = "PageWintouch";
-            this.PageWintouch.Size = new System.Drawing.Size(2005, 908);
-            this.PageWintouch.Text = "Wintouch";
-            this.PageWintouch.ToolTipTitle = "Page ToolTip";
-            this.PageWintouch.UniqueName = "1BF400A2A9D94F9A8DBCC6375322A522";
-            // 
-            // kryptonPanel9
-            // 
-            this.kryptonPanel9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.kryptonPanel9.Location = new System.Drawing.Point(0, 851);
-            this.kryptonPanel9.Name = "kryptonPanel9";
-            this.kryptonPanel9.PanelBackStyle = ComponentFactory.Krypton.Toolkit.PaletteBackStyle.HeaderSecondary;
-            this.kryptonPanel9.Size = new System.Drawing.Size(2005, 57);
-            this.kryptonPanel9.TabIndex = 2;
-            // 
-            // PagePrimavera
-            // 
-            this.PagePrimavera.AutoHiddenSlideSize = new System.Drawing.Size(200, 200);
-            this.PagePrimavera.Controls.Add(this.dgvAtualizacoesPrimavera);
-            this.PagePrimavera.Controls.Add(this.kryptonPanel6);
-            this.PagePrimavera.Controls.Add(this.kryptonPanel10);
-            this.PagePrimavera.Flags = 65534;
-            this.PagePrimavera.LastVisibleSet = true;
-            this.PagePrimavera.MinimumSize = new System.Drawing.Size(50, 50);
-            this.PagePrimavera.Name = "PagePrimavera";
-            this.PagePrimavera.Size = new System.Drawing.Size(2002, 908);
-            this.PagePrimavera.Text = "Primavera";
-            this.PagePrimavera.ToolTipTitle = "Page ToolTip";
-            this.PagePrimavera.UniqueName = "97599E3CBD52457670850E0BEEADFF86";
-            // 
-            // kryptonPanel10
-            // 
-            this.kryptonPanel10.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.kryptonPanel10.Location = new System.Drawing.Point(0, 851);
-            this.kryptonPanel10.Name = "kryptonPanel10";
-            this.kryptonPanel10.PanelBackStyle = ComponentFactory.Krypton.Toolkit.PaletteBackStyle.HeaderSecondary;
-            this.kryptonPanel10.Size = new System.Drawing.Size(2002, 57);
-            this.kryptonPanel10.TabIndex = 2;
+            this.dgvAtualizacoesSage.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAtualizacoesSage.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvAtualizacoesSage.Location = new System.Drawing.Point(0, 84);
+            this.dgvAtualizacoesSage.Name = "dgvAtualizacoesSage";
+            this.dgvAtualizacoesSage.RowHeadersWidth = 51;
+            this.dgvAtualizacoesSage.RowTemplate.Height = 24;
+            this.dgvAtualizacoesSage.Size = new System.Drawing.Size(2008, 767);
+            this.dgvAtualizacoesSage.TabIndex = 4;
             // 
             // kryptonPanel4
             // 
@@ -840,6 +842,41 @@
             this.kryptonLabel16.TabIndex = 12;
             this.kryptonLabel16.Values.Text = "Técnico";
             // 
+            // kryptonPanel8
+            // 
+            this.kryptonPanel8.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.kryptonPanel8.Location = new System.Drawing.Point(0, 851);
+            this.kryptonPanel8.Name = "kryptonPanel8";
+            this.kryptonPanel8.PanelBackStyle = ComponentFactory.Krypton.Toolkit.PaletteBackStyle.HeaderSecondary;
+            this.kryptonPanel8.Size = new System.Drawing.Size(2008, 57);
+            this.kryptonPanel8.TabIndex = 2;
+            // 
+            // PageWintouch
+            // 
+            this.PageWintouch.AutoHiddenSlideSize = new System.Drawing.Size(200, 200);
+            this.PageWintouch.Controls.Add(this.dgvAtualizacoesWintouch);
+            this.PageWintouch.Controls.Add(this.kryptonPanel5);
+            this.PageWintouch.Controls.Add(this.kryptonPanel9);
+            this.PageWintouch.Flags = 65534;
+            this.PageWintouch.LastVisibleSet = true;
+            this.PageWintouch.MinimumSize = new System.Drawing.Size(50, 50);
+            this.PageWintouch.Name = "PageWintouch";
+            this.PageWintouch.Size = new System.Drawing.Size(2005, 908);
+            this.PageWintouch.Text = "Wintouch";
+            this.PageWintouch.ToolTipTitle = "Page ToolTip";
+            this.PageWintouch.UniqueName = "1BF400A2A9D94F9A8DBCC6375322A522";
+            // 
+            // dgvAtualizacoesWintouch
+            // 
+            this.dgvAtualizacoesWintouch.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAtualizacoesWintouch.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvAtualizacoesWintouch.Location = new System.Drawing.Point(0, 84);
+            this.dgvAtualizacoesWintouch.Name = "dgvAtualizacoesWintouch";
+            this.dgvAtualizacoesWintouch.RowHeadersWidth = 51;
+            this.dgvAtualizacoesWintouch.RowTemplate.Height = 24;
+            this.dgvAtualizacoesWintouch.Size = new System.Drawing.Size(2005, 767);
+            this.dgvAtualizacoesWintouch.TabIndex = 4;
+            // 
             // kryptonPanel5
             // 
             this.kryptonPanel5.Controls.Add(this.kryptonGroupBox2);
@@ -1055,6 +1092,41 @@
             this.kryptonLabel24.Size = new System.Drawing.Size(67, 24);
             this.kryptonLabel24.TabIndex = 12;
             this.kryptonLabel24.Values.Text = "Técnico";
+            // 
+            // kryptonPanel9
+            // 
+            this.kryptonPanel9.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.kryptonPanel9.Location = new System.Drawing.Point(0, 851);
+            this.kryptonPanel9.Name = "kryptonPanel9";
+            this.kryptonPanel9.PanelBackStyle = ComponentFactory.Krypton.Toolkit.PaletteBackStyle.HeaderSecondary;
+            this.kryptonPanel9.Size = new System.Drawing.Size(2005, 57);
+            this.kryptonPanel9.TabIndex = 2;
+            // 
+            // PagePrimavera
+            // 
+            this.PagePrimavera.AutoHiddenSlideSize = new System.Drawing.Size(200, 200);
+            this.PagePrimavera.Controls.Add(this.dgvAtualizacoesPrimavera);
+            this.PagePrimavera.Controls.Add(this.kryptonPanel6);
+            this.PagePrimavera.Controls.Add(this.kryptonPanel10);
+            this.PagePrimavera.Flags = 65534;
+            this.PagePrimavera.LastVisibleSet = true;
+            this.PagePrimavera.MinimumSize = new System.Drawing.Size(50, 50);
+            this.PagePrimavera.Name = "PagePrimavera";
+            this.PagePrimavera.Size = new System.Drawing.Size(2002, 908);
+            this.PagePrimavera.Text = "Primavera";
+            this.PagePrimavera.ToolTipTitle = "Page ToolTip";
+            this.PagePrimavera.UniqueName = "97599E3CBD52457670850E0BEEADFF86";
+            // 
+            // dgvAtualizacoesPrimavera
+            // 
+            this.dgvAtualizacoesPrimavera.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAtualizacoesPrimavera.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvAtualizacoesPrimavera.Location = new System.Drawing.Point(0, 84);
+            this.dgvAtualizacoesPrimavera.Name = "dgvAtualizacoesPrimavera";
+            this.dgvAtualizacoesPrimavera.RowHeadersWidth = 51;
+            this.dgvAtualizacoesPrimavera.RowTemplate.Height = 24;
+            this.dgvAtualizacoesPrimavera.Size = new System.Drawing.Size(2002, 767);
+            this.dgvAtualizacoesPrimavera.TabIndex = 4;
             // 
             // kryptonPanel6
             // 
@@ -1272,85 +1344,14 @@
             this.kryptonLabel32.TabIndex = 12;
             this.kryptonLabel32.Values.Text = "Técnico";
             // 
-            // dgvAtualizacoesXD
+            // kryptonPanel10
             // 
-            this.dgvAtualizacoesXD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAtualizacoesXD.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvAtualizacoesXD.Location = new System.Drawing.Point(0, 84);
-            this.dgvAtualizacoesXD.Name = "dgvAtualizacoesXD";
-            this.dgvAtualizacoesXD.RowHeadersWidth = 51;
-            this.dgvAtualizacoesXD.RowTemplate.Height = 24;
-            this.dgvAtualizacoesXD.Size = new System.Drawing.Size(2008, 771);
-            this.dgvAtualizacoesXD.TabIndex = 2;
-            // 
-            // dgvAtualizacoesSage
-            // 
-            this.dgvAtualizacoesSage.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAtualizacoesSage.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvAtualizacoesSage.Location = new System.Drawing.Point(0, 84);
-            this.dgvAtualizacoesSage.Name = "dgvAtualizacoesSage";
-            this.dgvAtualizacoesSage.RowHeadersWidth = 51;
-            this.dgvAtualizacoesSage.RowTemplate.Height = 24;
-            this.dgvAtualizacoesSage.Size = new System.Drawing.Size(2008, 767);
-            this.dgvAtualizacoesSage.TabIndex = 4;
-            // 
-            // dgvAtualizacoesWintouch
-            // 
-            this.dgvAtualizacoesWintouch.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAtualizacoesWintouch.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvAtualizacoesWintouch.Location = new System.Drawing.Point(0, 84);
-            this.dgvAtualizacoesWintouch.Name = "dgvAtualizacoesWintouch";
-            this.dgvAtualizacoesWintouch.RowHeadersWidth = 51;
-            this.dgvAtualizacoesWintouch.RowTemplate.Height = 24;
-            this.dgvAtualizacoesWintouch.Size = new System.Drawing.Size(2005, 767);
-            this.dgvAtualizacoesWintouch.TabIndex = 4;
-            // 
-            // dgvAtualizacoesPrimavera
-            // 
-            this.dgvAtualizacoesPrimavera.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAtualizacoesPrimavera.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvAtualizacoesPrimavera.Location = new System.Drawing.Point(0, 84);
-            this.dgvAtualizacoesPrimavera.Name = "dgvAtualizacoesPrimavera";
-            this.dgvAtualizacoesPrimavera.RowHeadersWidth = 51;
-            this.dgvAtualizacoesPrimavera.RowTemplate.Height = 24;
-            this.dgvAtualizacoesPrimavera.Size = new System.Drawing.Size(2002, 767);
-            this.dgvAtualizacoesPrimavera.TabIndex = 4;
-            // 
-            // kryptonButton20
-            // 
-            this.kryptonButton20.Location = new System.Drawing.Point(834, 26);
-            this.kryptonButton20.Name = "kryptonButton20";
-            this.kryptonButton20.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Silver;
-            this.kryptonButton20.Size = new System.Drawing.Size(219, 35);
-            this.kryptonButton20.TabIndex = 0;
-            this.kryptonButton20.Values.Text = "Atualizar Datagrid XD";
-            // 
-            // kryptonButton21
-            // 
-            this.kryptonButton21.Location = new System.Drawing.Point(1078, 26);
-            this.kryptonButton21.Name = "kryptonButton21";
-            this.kryptonButton21.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Silver;
-            this.kryptonButton21.Size = new System.Drawing.Size(219, 35);
-            this.kryptonButton21.TabIndex = 0;
-            this.kryptonButton21.Values.Text = "Atualizar Datagrid sage";
-            // 
-            // kryptonButton22
-            // 
-            this.kryptonButton22.Location = new System.Drawing.Point(1594, 28);
-            this.kryptonButton22.Name = "kryptonButton22";
-            this.kryptonButton22.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Silver;
-            this.kryptonButton22.Size = new System.Drawing.Size(219, 35);
-            this.kryptonButton22.TabIndex = 0;
-            this.kryptonButton22.Values.Text = "Atualizar Datagrid primavera";
-            // 
-            // kryptonButton23
-            // 
-            this.kryptonButton23.Location = new System.Drawing.Point(1333, 26);
-            this.kryptonButton23.Name = "kryptonButton23";
-            this.kryptonButton23.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Silver;
-            this.kryptonButton23.Size = new System.Drawing.Size(219, 35);
-            this.kryptonButton23.TabIndex = 0;
-            this.kryptonButton23.Values.Text = "Atualizar Datagrid wintouch";
+            this.kryptonPanel10.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.kryptonPanel10.Location = new System.Drawing.Point(0, 851);
+            this.kryptonPanel10.Name = "kryptonPanel10";
+            this.kryptonPanel10.PanelBackStyle = ComponentFactory.Krypton.Toolkit.PaletteBackStyle.HeaderSecondary;
+            this.kryptonPanel10.Size = new System.Drawing.Size(2002, 57);
+            this.kryptonPanel10.TabIndex = 2;
             // 
             // frmListaAtualizacoes
             // 
@@ -1373,6 +1374,7 @@
             this.kryptonDockableNavigator1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PageXd)).EndInit();
             this.PageXd.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAtualizacoesXD)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel7)).EndInit();
             this.kryptonPanel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel3)).EndInit();
@@ -1385,13 +1387,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.kryptonComboBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PageSage)).EndInit();
             this.PageSage.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PageWintouch)).EndInit();
-            this.PageWintouch.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PagePrimavera)).EndInit();
-            this.PagePrimavera.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAtualizacoesSage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel4)).EndInit();
             this.kryptonPanel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox1.Panel)).EndInit();
@@ -1400,6 +1396,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox1)).EndInit();
             this.kryptonGroupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonComboBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PageWintouch)).EndInit();
+            this.PageWintouch.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAtualizacoesWintouch)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel5)).EndInit();
             this.kryptonPanel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox2.Panel)).EndInit();
@@ -1408,6 +1408,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox2)).EndInit();
             this.kryptonGroupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonComboBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PagePrimavera)).EndInit();
+            this.PagePrimavera.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAtualizacoesPrimavera)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel6)).EndInit();
             this.kryptonPanel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox3.Panel)).EndInit();
@@ -1416,10 +1420,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox3)).EndInit();
             this.kryptonGroupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonComboBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAtualizacoesXD)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAtualizacoesSage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAtualizacoesWintouch)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAtualizacoesPrimavera)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel10)).EndInit();
             this.ResumeLayout(false);
 
         }
