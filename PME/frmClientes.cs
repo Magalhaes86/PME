@@ -357,7 +357,7 @@ namespace PME
             cbxTecnicoResponsavel.SelectedIndex = -1;
             cbxTecnicoDeApoio.SelectedIndex = -1;
             txtGestorDeConta.Text = "";
-            cbx1ERP1.SelectedIndex = -1;
+         
             cbx1Produto1.SelectedIndex = -1;
             cbEstado1Lic3.SelectedIndex = -1;
             txt1Npostos1.Text = "";
@@ -420,7 +420,7 @@ namespace PME
         private void PreencherComboBoxErp()
         {
 
-            cbx1ERP1.Items.Clear(); // Limpa os itens existentes na ComboBox
+         //   cbx1ERP1.Items.Clear(); // Limpa os itens existentes na ComboBox
 
             HashSet<string> erpValues = new HashSet<string>(); // Usar um HashSet para armazenar valores únicos
 
@@ -439,7 +439,8 @@ namespace PME
                             if (!erpValues.Contains(erpValue)) // Verificar se o valor já existe no HashSet
                             {
                                 erpValues.Add(erpValue); // Adicionar ao HashSet se não existir
-                                cbx1ERP1.Items.Add(erpValue);
+
+                            //    cbx1ERP1.Items.Add(erpValue);
                             }
                         }
                     }
